@@ -16,7 +16,7 @@ def multiply(a, b):
     return a*b
 
 def divide(a, b):
-    pass # Write your code here
+    return a//b
 
 def calculator():
     print("\nWelcome to the Team Calculator!")
@@ -27,6 +27,7 @@ def calculator():
     print(f"Addition: {add(a, b)}")
     print(f"Substraction: {subtract(a,b)}")
     print(f"Multiplication: {multiply(a, b)}")
+    print(f"Division: {divide(a,b)}")
 
 if __name__ == "__main__":
     calculator()
