@@ -7,7 +7,7 @@ def get_input():
     return a, b
 
 def add(a, b):
-    pass # Write your code here
+    return a+b
 
 def subtract(a, b):
     pass # Write your code here
@@ -24,7 +24,7 @@ def calculator():
     print(f"\nValues received: a = {a}, b = {b}")
 
     # Function - 1
-    #print(f"Addition: {add(a, b)}")
+    print(f"Addition: {add(a, b)}")
 
 
 if __name__ == "__main__":
