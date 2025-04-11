@@ -10,7 +10,7 @@ def add(a, b):
     return a+b
 
 def subtract(a, b):
-    pass # Write your code here
+    return a-b
 
 def multiply(a, b):
     pass # Write your code here
@@ -25,6 +25,7 @@ def calculator():
 
     # Function - 1
     print(f"Addition: {add(a, b)}")
+    print(f"Substraction: {subtract(a,b)}")
 
 
 if __name__ == "__main__":
