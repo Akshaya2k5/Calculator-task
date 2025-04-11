@@ -25,7 +25,7 @@ def calculator():
 
     # Function - 1
     print(f"Addition: {add(a, b)}")
-    print(f"Substraction: {substract(a,b)}")
+    print(f"Substraction: {subtract(a,b)}")
 
 
 if __name__ == "__main__":
